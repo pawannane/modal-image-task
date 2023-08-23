@@ -1,0 +1,91 @@
+<!doctype html>
+<!-- If multi-language site, reconsider usage of html lang declaration here. -->
+<html lang="en"> 
+
+<head>
+  <meta charset="utf-8">
+  <title>Modal Image</title>
+  <!-- View-port Basics: http://mzl.la/VYREaP -->
+  <!-- This meta tag is used for mobile device to display the page without any zooming,
+       so how much the device is able to fit on the screen is what's shown initially. 
+       Remove comments from this tag, when you want to apply media queries to the website. -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <!-- Place favicon.ico in the root directory: mathiasbynens.be/notes/touch-icons -->
+  <link rel="shortcut icon" href="favicon.ico">
+  <!--font-awesome link for icons-->
+  <link rel="stylesheet" media="screen" href="assets/vendor/font-awesome/css/all.min.css" >
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Default style-sheet is for 'media' type screen (color computer display).  -->
+  <link rel="stylesheet" media="screen" href="assets/css/style.css" >
+</head>
+
+<body>
+  <!--container start-->
+  <div class="container">
+    <!--header section start-->
+    <header class="header">
+      <div class="wrapper">
+        <h1 class="heading">Light Box</h1>
+      </div>
+    </header>
+    <!--header section start-->
+    <!--main section start-->
+    <main>
+      <div class="img-container">
+        <div class="wrapper">
+          <ul class="images-list">
+            <li class="image">
+              <figure>
+                <img class="img" src="https://dummyimage.com/300x300/000/fff&text=muffins" alt="Muffins">
+                <figcaption class="img-caption">muffins are tasty</figcaption>
+              </figure>
+            </li>
+            <li class="image">
+              <figure>
+                <img class="img" src="https://dummyimage.com/300x300/000/fff&text=curry" alt="Curry">
+                <figcaption class="img-caption">curry is yummy</figcaption>
+              </figure>
+            </li>
+            <li class="image">
+              <figure>
+                <img class="img" src="https://dummyimage.com/300x300/000/fff&text=pizza" alt="Pizza">
+                <figcaption class="img-caption">pizzas are delicious</figcaption>
+              </figure>
+            </li>
+            <li class="image">
+              <figure>
+                <img class="img" src="https://dummyimage.com/300x300/000/fff&text=burger" alt="Burger">
+                <figcaption class="img-caption">burger is yum</figcaption>
+              </figure>
+            </li>
+            <li class="image">
+              <figure>
+                <img class="img" src="https://dummyimage.com/300x300/000/fff&text=shawarma" alt="Shawarma">
+                <figcaption class="img-caption">shawarma is great</figcaption>
+              </figure>
+            </li>
+            <li class="image">
+              <figure>
+                <img class="img" src="https://dummyimage.com/300x300/000/fff&text=french-fries" alt="French fries">
+                <figcaption class="img-caption">french fries are healthy</figcaption>
+              </figure>
+            </li>
+          </ul>
+          <div class="modal-image">
+            <figure>
+              <img class="img" src="" alt="">
+              <figcaption class="img-caption"> </figcaption>
+            </figure>
+            <div class="icon-container">
+              <a class="close" href="#FIXME" title="Close">Close</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!--main section end-->
+  </div>
+  <!--container end-->
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
